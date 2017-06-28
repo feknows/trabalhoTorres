@@ -1,0 +1,141 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  color: $text-color;
+  font-family: "Merriweather",serif;
+  font-size: 1.9rem;
+  margin: 0 150px 0 150px;
+  padding: 0;
+  background: $branco;
+}
+
+a {
+  text-decoration: none;
+    color: $text-color;
+}
+i {
+    font-style: normal;
+}
+.fa-github{
+        font-size: 2.9rem;
+    }
+p{
+    font-size: 1.9rem;
+    a{
+        &:hover{
+        color: $cor-destaque;
+        font-weight: bold;
+        }
+    }
+}
+h1{
+    color: darken($text-color,15%);
+}
+strong{
+    font-weight: bold;
+}
+
+header{
+    background: url(../img/background.png) 0 repeat-y $cor-primaria;
+    opacity: 0.3;
+    padding:77px 0px;
+    img{
+        border-radius: 100%;
+        /* centro */
+        width:150px;
+        height:150px;
+        position:absolute;
+        left:70%;
+        margin-top: -73px;
+        transition-duration: 0.4s;
+        transition-property: transform;
+        /* centro */
+        &:hover {
+            transform: rotate(360deg);
+            -webkit-transform: rotate(360deg);
+        }
+    }
+}
+
+nav{
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 2px 0 60px 0;
+    background-color: $cor-azul;
+    ul{
+        list-style: none;
+        li{
+            display: inline;
+            a{
+                color: $branco;
+                text-transform: uppercase;
+                font-size: 1.8rem;
+                padding: 5px;
+                margin: 0 50px;
+                &:hover{
+                    background: lighten($cor-azul, 10%);
+                    border-radius: 10px;
+                }
+            }
+        }
+    }
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    position: sticky;
+        .column{
+            width: 50%;
+            float: left;
+            ul{
+                list-style: none;
+                li{
+                    margin-left: 15px;
+                }
+            }
+            p{
+                margin-left: 15px;
+            }
+        }
+}
+
+
+footer{
+    border-top: 1px solid darken($branco, 10%);
+    position: absolute;
+    margin: 0 150px 0 150px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    p {
+        font-size: 1.45rem;
+        color: lighten($text-color, 20%);
+        text-align: center;
+    }
+}
+
+
+.btn{
+    margin-left: 10px;
+    box-sizing: border-box;
+    display: block;
+    width: 95%;
+    border-width: 1px;
+    border-style: solid;
+    padding: 16px;
+    outline: 0;
+    font-family: inherit;
+    font-size: 0.95em;
+    background: $cor-primaria;
+    text-align: center;
+    color: $branco;
+    border-radius: 6px;
+}
+
+
+

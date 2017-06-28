@@ -1,0 +1,116 @@
+html {
+  font-size: 62.5%; }
+
+body {
+  color: #444444;
+  font-family: "Merriweather",serif;
+  font-size: 1.9rem;
+  margin: 0 150px 0 150px;
+  padding: 0;
+  background: #ffffff; }
+
+a {
+  text-decoration: none;
+  color: #444444; }
+
+i {
+  font-style: normal; }
+
+.fa-github {
+  font-size: 2.9rem; }
+
+p {
+  font-size: 1.9rem; }
+  p a:hover {
+    color: #F64740;
+    font-weight: bold; }
+
+h1 {
+  color: #1e1e1e; }
+
+strong {
+  font-weight: bold; }
+
+header {
+  background: url(../img/background.png) 0 repeat-y #202030;
+  opacity: 0.3;
+  padding: 77px 0px; }
+  header img {
+    border-radius: 100%;
+    /* centro */
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left: 70%;
+    margin-top: -73px;
+    transition-duration: 0.4s;
+    transition-property: transform;
+    /* centro */ }
+    header img:hover {
+      transform: rotate(360deg);
+      -webkit-transform: rotate(360deg); }
+
+nav {
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  margin: 2px 0 60px 0;
+  background-color: #4C6085; }
+  nav ul {
+    list-style: none; }
+    nav ul li {
+      display: inline; }
+      nav ul li a {
+        color: #ffffff;
+        text-transform: uppercase;
+        font-size: 1.8rem;
+        padding: 5px;
+        margin: 0 50px; }
+        nav ul li a:hover {
+          background: #6078a4;
+          border-radius: 10px; }
+
+.container {
+  width: 100%;
+  display: flex;
+  position: sticky; }
+  .container .column {
+    width: 50%;
+    float: left; }
+    .container .column ul {
+      list-style: none; }
+      .container .column ul li {
+        margin-left: 15px; }
+    .container .column p {
+      margin-left: 15px; }
+
+footer {
+  border-top: 1px solid #e6e6e6;
+  position: absolute;
+  margin: 0 150px 0 150px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem; }
+  footer p {
+    font-size: 1.45rem;
+    color: #777777;
+    text-align: center; }
+
+.btn {
+  margin-left: 10px;
+  box-sizing: border-box;
+  display: block;
+  width: 95%;
+  border-width: 1px;
+  border-style: solid;
+  padding: 16px;
+  outline: 0;
+  font-family: inherit;
+  font-size: 0.95em;
+  background: #202030;
+  text-align: center;
+  color: #ffffff;
+  border-radius: 6px; }
+
+/*# sourceMappingURL=main.css.map */

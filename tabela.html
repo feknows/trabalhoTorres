@@ -1,0 +1,109 @@
+<html lang="pt">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--Title do html = Nome da página-->
+    <title>Tabela | Trabalho Torres</title>
+    <!--Fontes do site - GoogleFonts-->
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--Estilo Geral do curso-->
+    <link href="css/main.css" rel="stylesheet">
+    <!--<link href="css/bootstrap.css" rel="stylesheet"> -->
+  
+  <script src="https://www.gstatic.com/firebasejs/4.1.3/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyB2WbgJa-L3LSzzD54wa7BsZB3YqjvA9fY",
+    authDomain: "torrestrab.firebaseapp.com",
+    databaseURL: "https://torrestrab.firebaseio.com",
+    projectId: "torrestrab",
+    storageBucket: "torrestrab.appspot.com",
+    messagingSenderId: "334907453476"
+  };
+  firebase.initializeApp(config);
+</script>
+ 
+  </head>
+
+  
+  <body>
+  
+  <!-- header -->
+      <header>
+          <img src="img/q.png" alt="">
+       </header>
+  <!-- header -->
+   
+   <nav class="menu">
+       <div class="menu-principal">
+           <ul>
+               <li><a href="index.html">home</a></li>
+               <li><a href="tabela.html">tabela</a></li>
+               <li><a href="tecnologia.html">tecnologia</a></li>
+               <li><a href="animatrix.html">animatrix</a></li>
+           </ul>
+       </div>
+   </nav>
+    
+    <!-- container -->
+     <section class="container">
+         
+         
+         <div class="column">
+             <span class="btn"><i>CADASTRAR</i></span>
+             
+             <form action="">
+                 <ul>
+                     <li>
+                        <input id="nome" type="text" />
+						<label for="nome">First Name</label>
+                     </li>
+                 </ul>
+             </form>
+             
+             
+         </div>
+         
+         <div class="column">
+               <span class="btn"><i>LISTAR</i></span>
+        </div>
+           
+            <!-- 
+            
+            <label>Cadastrar</label>
+            <input type="text" id="name" placeholder="informe um nome" />
+            <input type="button" value="Submit" id="save">
+            <input type="button" value="Listar" id="show">
+        </div>
+
+        <table style="width: 200px" id="table">
+          <tr>
+            <th>#</th>
+            <th>Name</th> 
+          </tr>
+        </table>
+        
+        
+        -->
+         
+         
+     </section>
+     <!-- container -->
+     
+     
+     <!-- footer -->
+    <footer>
+        <p>© Copyright 2017 Felipe Alves e Daniel Sholz</p>
+    </footer>
+      <!-- footer -->
+      
+      
+    <!-- Arquivos JS -->
+    <script src="js/app.js"></script>
+    <script src="js/jquery1.11.3.min.js"></script>
+    <!-- <script src="js/bootstrap.min.js"></script> -->
+  
+  </body>
+</html>
