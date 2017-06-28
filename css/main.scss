@@ -101,7 +101,15 @@ nav{
                 margin-left: 15px;
             }
         }
+    .columnQuarter{
+        width: 22%;
+        margin-left: 5%;
+            ul{
+                list-style: none;
+                }
+    }
 }
+
 
 
 footer{
@@ -118,6 +126,7 @@ footer{
         text-align: center;
     }
 }
+
 
 
 .btn{
@@ -138,4 +147,16 @@ footer{
 }
 
 
-
+.imgRotate{
+        /* centro */
+        width:150px;
+        height:150px;
+        position:absolute;
+        transition-duration: 1.9s;
+        transition-property: transform;
+        /* centro */
+        &:hover {
+            transform: rotate(12deg);
+            -webkit-transform: rotate(12deg);
+        }
+    }

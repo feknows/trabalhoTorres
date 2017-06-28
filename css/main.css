@@ -83,6 +83,11 @@ nav {
         margin-left: 15px; }
     .container .column p {
       margin-left: 15px; }
+  .container .columnQuarter {
+    width: 22%;
+    margin-left: 5%; }
+    .container .columnQuarter ul {
+      list-style: none; }
 
 footer {
   border-top: 1px solid #e6e6e6;
@@ -112,5 +117,17 @@ footer {
   text-align: center;
   color: #ffffff;
   border-radius: 6px; }
+
+.imgRotate {
+  /* centro */
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  transition-duration: 1.9s;
+  transition-property: transform;
+  /* centro */ }
+  .imgRotate:hover {
+    transform: rotate(12deg);
+    -webkit-transform: rotate(12deg); }
 
 /*# sourceMappingURL=main.css.map */
